@@ -1,5 +1,5 @@
 🎙️ Grabadora de Audio en Python
-Este proyecto es una interfaz gráfica simple creada con Tkinter que permite grabar y reproducir audio en formato .wav.
+Este proyecto es una aplicación de escritorio desarrollada en Python con Tkinter que permite grabar y reproducir audio desde el micrófono de tu computadora. Es ideal para grabaciones rápidas, notas de voz o pruebas de sonido.
 
 📦 Requisitos
 *Python 3.x
@@ -10,15 +10,19 @@ Este proyecto es una interfaz gráfica simple creada con Tkinter que permite gra
 Instálalos así (si no los tienes):
 pip install sounddevice scipy simpleaudio
 
-▶️ Cómo usar
-1-Ejecuta el archivo Grabadora.py.
-2-Escribe la duración en segundos.
-3-Presiona el botón Grabar.
-4-Una vez que termina, puedes presionar Reproducir para escuchar lo grabado.
-
 
 📂 Estructura
 grabadora-audio/
 │
 ├── Grabadora.py   # Script principal
 └── README.md      # Este archivo
+
+
+▶️ Cómo usar
+1-Abre el archivo Grabadora.py con Python 3.
+2-Ingresa la duración de la grabación (en segundos) en el campo correspondiente.
+3-Haz clic en el botón "Grabar".
+4-Espera a que se complete la grabación.
+5-Haz clic en "Reproducir" para escuchar el audio grabado.
+
+💡 El archivo de audio se guarda automáticamente como grabacion.wav en la misma carpeta del proyecto.
